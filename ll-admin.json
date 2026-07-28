@@ -1,0 +1,15 @@
+{
+  "siteId": "cv-takvard",
+  "company": "C&V Takvård",
+  "version": 2,
+  "editable": {
+    "hero": ["eyebrow", "title", "description", "video", "poster"],
+    "services": ["title", "description", "category", "active", "order"],
+    "projects": ["title", "category", "images", "video", "description", "featured"],
+    "seasonal": ["winterServiceActive", "snowRemovalText", "associationOffer"],
+    "contact": ["phone", "email", "serviceArea", "formRecipient"],
+    "media": ["logo", "heroVideo", "facadeVideo", "gallery"]
+  },
+  "categories": ["Tak", "Fasad", "Byggservice", "Vinterservice"],
+  "cloudflare": {"buildCommand": "", "outputDirectory": "."}
+}
