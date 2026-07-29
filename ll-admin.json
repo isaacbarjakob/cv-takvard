@@ -1,15 +1,13 @@
 {
-  "siteId": "cv-takvard",
-  "company": "C&V Takvård",
-  "version": 2,
-  "editable": {
-    "hero": ["eyebrow", "title", "description", "video", "poster"],
-    "services": ["title", "description", "category", "active", "order"],
-    "projects": ["title", "category", "images", "video", "description", "featured"],
-    "seasonal": ["winterServiceActive", "snowRemovalText", "associationOffer"],
-    "contact": ["phone", "email", "serviceArea", "formRecipient"],
-    "media": ["logo", "heroVideo", "facadeVideo", "gallery"]
+  "site": {"name": "C&V Takvård", "status": "production-ready", "locale": "sv-SE"},
+  "contact": {
+    "phone": "0738984338",
+    "phone_display": "073-898 43 38",
+    "email": "cv_takvard@hotmail.com",
+    "instagram_handle": "@CV_TAKVARD",
+    "instagram_url": "https://www.instagram.com/cv_takvard/"
   },
-  "categories": ["Tak", "Fasad", "Byggservice", "Vinterservice"],
-  "cloudflare": {"buildCommand": "", "outputDirectory": "."}
+  "editable_modules": ["hero", "services", "projects", "contact", "images", "faq"],
+  "disabled_modules": ["opening_hours", "offers"],
+  "integration": {"mode": "json-fallback", "api_ready": true, "endpoint": "/api/content"}
 }
